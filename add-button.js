@@ -1,0 +1,1 @@
+document.querySelector('.add-todo').addEventListener('click',(arr)=> addTodo(arr).map(printTodos))
