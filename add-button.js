@@ -1,1 +1,4 @@
-document.querySelector('.add-todo').addEventListener('click',(arr)=> addTodo(arr).map(printTodos))
+document.querySelector('.add-todo').addEventListener('click', () => {
+    addTodo();
+    refreshTodos(currentTodos);
+})
