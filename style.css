@@ -1,3 +1,8 @@
 .complete {
   text-decoration: line-through;
+  opacity: 50%;
+}
+
+li {
+  transition: 2s;
 }

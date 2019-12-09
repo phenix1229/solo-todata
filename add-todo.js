@@ -11,7 +11,7 @@ const addTodo = function() {
     }
     
     todos.push(obj);
-    currentTodos.push(obj);
+    currentTodos = [...todos]
     inputText.value = ''
   }
 }

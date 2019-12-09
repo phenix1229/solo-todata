@@ -5,8 +5,8 @@ const clearTodos = function() {
   }
 }
 
-const clearCurrentTodos = function() {
-  while(currentTodos.length > 0) {
-    currentTodos.pop();
-  }
-}
+// const clearCurrentTodos = function() {
+//   while(currentTodos.length > 0) {
+//     currentTodos.pop();
+//   }
+// }
